@@ -29,14 +29,14 @@ export default function ({controls, timer, sound}) {
   buttonSoundOn.addEventListener("click", function () {
     buttonSoundOff.classList.remove("hide")
     buttonSoundOn.classList.add("hide")
-    sound.bara.pause()
+    sound.artOfSilence.pause()
   })
 
   buttonSoundOff.addEventListener("click", function () {
     buttonSoundOn.classList.remove("hide")
     buttonSoundOff.classList.add("hide")
-    sound.bara.loop = true
-    sound.bara.play()
+    sound.artOfSilence.loop = true
+    sound.artOfSilence.play()
   })
 
   buttonSet.addEventListener("click", function () {

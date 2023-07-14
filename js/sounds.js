@@ -7,7 +7,7 @@ export default function(){
   const kitchenTimer = new Audio(
     "https://github.com/maykbrito/automatic-video-creator/blob/master/audios/kichen-timer.mp3?raw=true"
   )
-  const bara = new Audio("./js/bara.mp3")
+  const artOfSilence = new Audio("./js/artOfSilence.mp3")
 
 
   function pressButon(){
@@ -19,7 +19,7 @@ export default function(){
   return {
     pressButon,
     timerEnd,
-    bara
+    artOfSilence
   }
 
 }
